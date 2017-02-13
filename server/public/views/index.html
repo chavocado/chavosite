@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="/assets/styles/normalize.css">
     <link rel="stylesheet" href="/assets/styles/skeleton.css">
     <!-- scripts -->
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-resource.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.js"></script>
     <!-- factories -->
     <!-- controllers -->
+    <script type="text/javascript" src="/assets/scripts/controllers/homeController.js"></script>
   </head>
   <body>
     <h1>Hello World</h1>
-    <container>
-      <p>Hmmm well this is a pretzel.</p>
-    </container>
-    <main>
+    <main class="" ng-view>
       <h3>Daniel Chavez a Software Developer specializing in full-stack web development.</h3>
     </main>
 
