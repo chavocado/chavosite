@@ -7,3 +7,15 @@ body{
 h1{
   font-size: 2.5em;
 }
+
+/*screen size under 850*/
+
+
+@media screen and (max-width: 850px) {
+  nav {
+
+  }
+  nav ul li {
+
+  }
+}
