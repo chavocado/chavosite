@@ -6,20 +6,18 @@
     <!-- css -->
     <link rel="stylesheet" href="/assets/styles/normalize.css">
     <link rel="stylesheet" href="/assets/styles/skeleton.css">
+    <link rel="stylesheet" href="/assets/styles/master.css">
     <!-- scripts -->
     <script type="text/javascript" src="/vendors/angular.min.js"></script>
     <script type="text/javascript" src="/vendors/angular-resource.js"></script>
     <script type="text/javascript" src="/vendors/angular-route.js"></script>
+    <script type="text/javascript" src="/assets/scripts/clientapp.js"></script>
     <!-- factories -->
     <!-- controllers -->
     <script type="text/javascript" src="/assets/scripts/controllers/homeController.js"></script>
   </head>
-  <body>
-    <h1>Hello World</h1>
-    <main class="" ng-view>
-      <h3>Daniel Chavez a Software Developer specializing in full-stack web development.</h3>
+  <body ng-app="myApp">
+    <main class="mainview" ng-view>
     </main>
-
-
   </body>
 </html>
